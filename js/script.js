@@ -2,17 +2,7 @@ $(document).ready(function(){
 
   //WHAT WE DO PART
 
-  // Development
 
-    $("#development-image").click(function(){
-      $("#development-image").slideDown('1500').hide('1000');
-      $("#development").show('1500');
-    });
-    $("#development").click(function(){
-      $("#development").slideUp('1500');
-      $("#development-image").slideDown('1500');
-    });
-  });
 
   // Design
   
@@ -24,6 +14,18 @@ $(document).ready(function(){
     $("#design").click(function(){
       $("#design").slideUp('1500');
       $("#design-image").slideDown('1500');
+    });
+  });
+
+    // Development
+
+    $("#development-image").click(function(){
+      $("#development-image").slideDown('1500').hide('1000');
+      $("#development").show('1500');
+    });
+    $("#development").click(function(){
+      $("#development").slideUp('1500');
+      $("#development-image").slideDown('1500');
     });
   });
   
